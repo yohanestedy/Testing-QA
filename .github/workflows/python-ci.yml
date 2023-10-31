@@ -16,7 +16,7 @@ jobs:
         python-version: 3.x
 
     - name: Run Tests
-      run: python -m unittest discover -s tests
+      run: python -m unittest discover
 
     - name: Upload Test Results
       uses: actions/upload-artifact@v2
